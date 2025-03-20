@@ -4,10 +4,10 @@ Aqui está uma lista de **18 exercícios de JavaScript**, divididos de forma equ
 
 ### **Operadores de Comparação**
 1. **Verificar Igualdade Simples**  
-   Escreva um programa que verifique se dois números (ex.: `10` e `'10'`) são iguais, tanto em valor quanto em tipo.
+   Crie um programa que verifique se dois números são iguais.
 
 2. **Comparação de Idades**  
-   Crie um script que receba duas idades (por exemplo, `15` e `18`) e determine qual é maior, ou se ambas são iguais.
+   Crie um programa que receba duas idades e determine qual é maior, ou se ambas são iguais.
 
 3. **Maior ou Igual a Zero**  
    Crie uma função que receba um número e retorne `true` se for maior ou igual a zero, e `false` caso contrário.
@@ -16,10 +16,10 @@ Aqui está uma lista de **18 exercícios de JavaScript**, divididos de forma equ
 
 ### **Operadores Lógicos**
 4. **Condições com "E" (`&&`)**  
-   Crie um programa que receba dois valores booleanos (ex.: `true` e `false`) e exiba no console o resultado da condição `&&`.
+   Crie um programa que verifique se uma pessoa atende dois critérios para ser considerada elegível, ter mais de 18 anos e possuir uma carteira de habilitação.
 
 5. **Condições com "OU" (`||`)**  
-   Crie um script que simule um sistema de login, onde uma pessoa pode entrar utilizando **e-mail ou nome de usuário**, contanto que a senha esteja correta.
+   Você está organizando um evento e somente pessoas que atendem a pelo menos uma das seguintes condições podem entrar, possuir um convite válido ou o nome está na lista de convidados.
 
 6. **Negação (`!`)**  
    Escreva uma função que receba uma condição e retorne seu valor negado.

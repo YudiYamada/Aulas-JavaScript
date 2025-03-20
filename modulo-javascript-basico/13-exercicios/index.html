@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios</title>
+  </head>
+  <body>
+    <h1>Exercícios JavaScript Básico</h1>
+    <br />
+    <div class="questao 01">
+      <h2>01 - Verificar Igualdade Simples</h2>
+      <p>Crie um programa que verifique se dois números são iguais.</p>
+      <label for="questao1numero1">Escreva o primeiro número</label>
+      <input type="number" id="questao1numero1" />
+      <br />
+      <label for="questao1numero2">Escreva o segundo número</label>
+      <input type="number" id="questao1numero2" />
+      <br />
+      <button onclick="questao1()">Checar</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="questao 02">
+      <h2>02 - Comparação de Idades</h2>
+      <p>
+        Crie um programa que receba duas idades e determine qual é maior, ou se
+        ambas são iguais.
+      </p>
+      <label for="questao2idade1">Escreva a primeira idade</label>
+      <input type="number" id="questao2idade1" />
+      <br />
+      <label for="questao2idade2">Escreva a segunda idade</label>
+      <input type="number" id="questao2idade2" />
+      <br />
+      <button onclick="questao2()">Checar</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="questao 03">
+      <h2>03 - Maior ou Igual a Zero</h2>
+      <p>
+        Crie uma função que receba um número e retorne 'true' se for maior ou
+        igual a zero, e 'false' caso contrário.
+      </p>
+      <label for="questao3numero1">Escreva o número</label>
+      <input type="number" id="questao3numero1" />
+      <br />
+      <button onclick="questao3()">Checar</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="questao 04">
+      <h2>04 - Condições com "E" (&&)</h2>
+      <p>
+        Crie um programa que verifique se uma pessoa atende dois critérios para
+        ser considerada elegível, ter mais de 18 anos e possuir uma carteira de
+        habilitação.
+      </p>
+      <label for="questao4numero1">Quantos anos você tem?</label>
+      <input type="number" id="questao4numero1" />
+      <br />
+      <span>Você tem carteira de habilitação?</span>
+      <br />
+      <label for="questao4radiosim">Sim</label>
+      <input
+        type="radio"
+        id="questao4radiosim"
+        name="questao4radio"
+        value="questao4radiosim"
+      />
+      <label for="questao4radionao">Não</label>
+      <input
+        type="radio"
+        id="questao4radionao"
+        name="questao4radio"
+        value="questao4radionao"
+      />
+      <br />
+      <button onclick="questao4()">Checar</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="questao 05">
+      <h2>05 - Condições com "OU" ( || )</h2>
+      <p>
+        Você está organizando um evento e somente pessoas que atendem a pelo
+        menos uma das seguintes condições podem entrar, possuir um convite
+        válido ou o nome está na lista de convidados.
+      </p>
+      <span>Possuí um Convite Válido?</span>
+      <br />
+      <label for="questao5radioconvitesim">Sim</label>
+      <input
+        type="radio"
+        name="questao5radioconvite"
+        id="questao5radioconvitesim"
+        value="questao5radioconvitesim"
+      />
+      <label for="questao5radioconvitenao">Não</label>
+      <input
+        type="radio"
+        name="questao5radioconvite"
+        id="questao5radioconvitenao"
+        value="questao5radioconvitenao"
+      />
+      <br />
+      <br />
+
+      <span>Seu Nome Está na Lista?</span>
+      <br />
+      <label for="questao5radiolistasim">Sim</label>
+      <input
+        type="radio"
+        name="questao5radiolista"
+        id="questao5radiolistasim"
+        value="questao5radiolistasim"
+      />
+      <label for="questao5radiolistanao">Não</label>
+      <input
+        type="radio"
+        name="questao5radiolista"
+        id="questao5radiolistanao"
+        value="questao5radiolistanao"
+      />
+      <br />
+      <button onclick="questao5()">Checar</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+    <div class="questao"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
