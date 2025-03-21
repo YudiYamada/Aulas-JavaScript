@@ -118,3 +118,40 @@ function questao9() {
 
   alert(resultado);
 }
+
+// Questão 10 - Imprimir Números de 1 a 100
+function questao10() {
+  let resultado = "";
+  for (let i = 1; i <= 100; i++) {
+    resultado += i + " ";
+  }
+  alert(resultado);
+}
+
+// Questão 11 - Números Ímpares de 1 a 50
+function questao11() {
+  let numerosImpares = "";
+  for (let i = 1; i <= 50; i++) {
+    if (i % 2 !== 0) {
+      numerosImpares += i + "";
+    }
+  }
+  alert(numerosImpares);
+}
+
+// Questão 12 -
+function questao12() {
+  const entrada = document.getElementById("questao12").value;
+  const arrayNumeros = entrada.split(",").map(Number); 
+  const soma = somaArray(arrayNumeros); 
+  alert(`A soma é: ${soma}`); 
+
+  function somaArray(numeros) {
+    let soma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+      soma += numeros[i];
+    }
+    return soma;
+  }
+}
+
