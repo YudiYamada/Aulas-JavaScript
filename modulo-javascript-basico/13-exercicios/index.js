@@ -52,7 +52,6 @@ function questao4() {
 }
 
 // Questão 05 - Condições com "OU" ( || )
-
 function questao5() {
   const questao5radioconvite = document.querySelector(
     'input[name="questao5radioconvite"]:checked'
@@ -62,9 +61,60 @@ function questao5() {
     'input[name="questao5radiolista"]:checked'
   );
 
-  if (questao5radioconvite.value === "questao5radioconvitesim" || questao5radiolista.value === "questao5radiolistasim") {
-    alert("Pode entrar")
+  if (
+    questao5radioconvite.value === "questao5radioconvitesim" ||
+    questao5radiolista.value === "questao5radiolistasim"
+  ) {
+    alert("Pode entrar");
   } else {
-    alert("Não pode entrar")
+    alert("Não pode entrar");
   }
+}
+
+// Questão 06 - Negação (!)
+function questao6() {
+  const questao6radio = document.querySelector(
+    "input[name='questao6radio']:checked"
+  );
+
+  return alert(!questao6radio);
+}
+
+// Questão 07 - Cálculo de Desconto
+function questao7() {
+  const questao7 = document.getElementById("questao7").value;
+
+  let desconto = questao7 * 0.8;
+
+  alert(`com o desconto fica R$${desconto}`);
+}
+
+// Questão 08 - Cálculo de Média
+function questao8() {
+  const numero01 = parseFloat(
+    document.getElementById("questao8numero01").value
+  );
+  const numero02 = parseFloat(
+    document.getElementById("questao8numero02").value
+  );
+  const numero03 = parseFloat(
+    document.getElementById("questao8numero03").value
+  );
+
+  let calcularMedia = (numero01 + numero02 + numero03) / 3;
+
+  alert(`A média dos números é de ${calcularMedia}`);
+}
+
+// Questão 09 - Tabuada de Multiplicação
+function questao9() {
+  const numero = parseInt(document.getElementById("questao9numero").value);
+
+  let resultado = `Tabuada do ${numero}:\n`;
+
+  for (let i = 1; i <= 10; i++) {
+    resultado += `${numero} x ${i} = ${numero * i}\n`;
+  }
+
+  alert(resultado);
 }
