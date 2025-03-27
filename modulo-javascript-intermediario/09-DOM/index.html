@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>DOM</h1>
+
+    <br />
+    <br />
+
+    <div>
+      <h2>Manipulando o DOM</h2>
+      <p id="paragrafo1">Paragrafo 1</p>
+
+      <p>Paragrafo 2</p>
+
+      <input
+        type="text"
+        name="email"
+        class="tag-de-input"
+        placeholder="Digite o seu email principal"
+      />
+
+      <input
+        type="text"
+        name="email"
+        class="tag-de-input"
+        placeholder="Digite o seu email secundario"
+      />
+    </div>
+
+    <br />
+    <br />
+
+    <div>
+      <h2>Como manipular os elementos do DOM</h2>
+
+      <article class="post">
+        <p>
+          <strong>Yudi Yamada</strong>
+          <span>@naosouoyudidoplaystation - 10 min</span>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+          tempora. Reiciendis odio debitis et iure quia similique dolor alias
+          dicta deleniti suscipit, atque velit quae, non rem labore neque vel!
+        </p>
+        <br />
+
+        <div class="comentarios">
+          <h3>Comentários:</h3>
+          <input
+            name="novo-comentario"
+            type="text"
+            placeholder="Digite o seu comentário"
+          />
+
+          <button onclick="adicionarComentario()">Adicionar Comentário</button>
+
+          <br />
+
+          <div id="novos-comentarios"></div>
+        </div>
+      </article>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
